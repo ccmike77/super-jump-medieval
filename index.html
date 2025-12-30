@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medieval Platformer</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#87ceeb">
+<style>html,body{margin:0;height:100%;background:#87ceeb}</style>
+</head>
+<body>
+<iframe src="game.html" style="border:none;width:100vw;height:100vh;"></iframe>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+</body>
+</html>
